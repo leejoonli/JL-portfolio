@@ -15,6 +15,7 @@ import cpp from './img/cpp.png';
 import csharp from './img/csharp.png';
 import django from './img/django.png';
 import postgresql from './img/postgresql.png';
+import yaml from './img/yaml.png';
 
 function Technologies() {
     useEffect(() => {
@@ -56,6 +57,10 @@ function Technologies() {
                 <div className={styles.iconContainer}>
                     <img src={css} alt="CSS Icon" className={styles.techIcons} data-aos='zoom-in' data-aos-once='true' />
                     <h2 className={styles.techHeader}>CSS</h2>
+                </div >
+                <div className={styles.iconContainer}>
+                    <img src={yaml} alt="YAML Icon" className={styles.techIcons} data-aos='zoom-in' data-aos-once='true' />
+                    <h2 className={styles.techHeader}>YAML</h2>
                 </div >
             </div>
             <h1 className={styles.techHeading2}>FRAMEWORKS</h1>
